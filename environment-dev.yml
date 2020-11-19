@@ -1,0 +1,32 @@
+name: glidertools-dev-conda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+        - python=3.7
+        - matplotlib
+        - seawater
+        - tqdm
+        - scipy
+        - scikit-learn
+        - numpy 
+        - xarray
+        - pandas
+        - astral
+        - netCDF4
+        - numexpr
+        - flake8
+        - isort
+        - mypy
+        - pre-commit
+        - pytest
+        - pytest-cov
+        - black==20.8b1
+        - pipenv
+          # optionals
+        - cmoean
+        - jupyter
+        - gsw
+        - plotly
+        - pykrige
+
