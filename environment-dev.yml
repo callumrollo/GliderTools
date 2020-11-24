@@ -1,7 +1,6 @@
 name: glidertools-dev-conda
 channels:
   - conda-forge
-  - defaults
 dependencies:
         - python=3.7
         - matplotlib
@@ -24,7 +23,7 @@ dependencies:
         - black==20.8b1
         - pipenv
           # optionals
-        - cmoean
+        - cmocean
         - jupyter
         - gsw
         - plotly
